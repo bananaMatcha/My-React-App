@@ -1,0 +1,304 @@
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(224, 224, 224);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.student{
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.8)
+}
+
+.student p{
+  margin:0;
+}
+.welcome-message{
+  background-color: #00ee0c;
+  color: white;
+}
+.login-prompt{
+  background-color: #ee0000;
+  color: white;
+}
+
+.list-category{
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  background-color: bisque;
+}
+.list-item li{
+  list-style: none;
+}
+.list-item li:hover{
+  color: #ff9900;
+}
+
+/* counter */
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-button{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 5px;
+  background-color: #64acff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover{
+  background-color: #548fd2;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color:#00ee0c
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+  color:#cbcbcb
+}
+
+/* To-do-list */
+.to-do-list {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+button{
+  font-size: 1.7em;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button{
+  background-color: hsl(120, 100%, 25%) ;
+  margin: 5px;
+}
+.add-button:hover {
+  background-color: hsl(120, 100%, 15%) ;
+}
+.delete-button{
+  background-color: hsl(0, 100%, 40%) ;
+  margin: 5px;
+}
+.delete-button:hover {
+  background-color: hsl(0, 100%, 30%) ;
+}
+.move-button{
+  background-color: hsl(207, 90%, 67%) ;
+  margin: 5px;
+}
+.move-button:hover {
+  background-color: hsl(207, 90%, 47%) ;
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(84, 84, 84);
+}
+
+ol{
+  padding: 0;
+}
+.to-do-tasks{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 97%);
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex:1;
+  color: black;
+}
+.delete-button, .move-button, .add-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.clock-container{
+  background-image: url(assets/background-image.jpg);
+  background-attachment: fixed;
+  max-width: 100%;
+}
+.clock{
+  color: whitesmoke;
+  font-size: 6rem;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px black;
+}
+.box{
+  border: 3px solid;
+  border-color: chocolate;
+  padding: 25px;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight:  bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.start-button{
+  background-color: hsl(115, 100%, 40%);
+}
+.start-button:hover{
+  background-color: hsl(115, 100%, 35%);
+}
+
+.stop-button{
+  background-color: hsl(0, 100%, 40%);
+}
+.stop-button:hover{
+  background-color: hsl(0, 100%, 35%);
+}
+
+.reset-button{
+  background-color: hsl(208, 96%, 40%);
+}
+.reset-button:hover{
+  background-color: hsl(208, 96%, 35%);
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
