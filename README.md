@@ -1,2 +1,2 @@
 # MyReactApp
- The app I practiced based on a Youtube tutorial
+ The app I created based on a Youtube tutorial
